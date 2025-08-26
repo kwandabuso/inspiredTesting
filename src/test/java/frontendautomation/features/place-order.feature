@@ -9,7 +9,6 @@ Feature: place order
     When I click the checkout button
     Then checkout page is open
     When I enter the billing address
-    And I select in store pickup
     And I enter Shipping address
     And I enter Shipping method
     And I enter Payment method
